@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/produc"
+        android:orderInCategory="102"
+        android:title="Formulario producto"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/servi"
+        android:orderInCategory="102"
+        android:title="Formulario servicio"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favoritos"
+        android:orderInCategory="100"
+        android:title="Ventana favoritos"
+        android:icon="@drawable/star"
+        app:showAsAction="always"/>
+</menu>
